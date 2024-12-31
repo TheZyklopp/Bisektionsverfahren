@@ -1,5 +1,5 @@
 # Bisektionsverfahren
-```charp
+```csharp
 using System;
 
 namespace Bisektionsverfahren
@@ -58,14 +58,14 @@ namespace Bisektionsverfahren
             double root = CalculateRootOfPolynomial(1, 2);
             if (double.IsNaN(root))
             {
-                Console.WriteLine("Keine gültige Nullstelle im angegebenen Intervall gefunden.");
+                Console.WriteLine("Keine gÃ¼ltige Nullstelle im angegebenen Intervall gefunden.");
             }
             else
             {
                 Console.WriteLine($"Die berechnete Nullstelle ist: {root}");
             }
 
-            Console.WriteLine("\nWeitere Tests mit Spezialfällen:");
+            Console.WriteLine("\nWeitere Tests mit SpezialfÃ¤llen:");
 
             double invalidRoot = CalculateRootOfPolynomial(2, 1);
             Console.WriteLine($"Test mit a > b: {invalidRoot}");
